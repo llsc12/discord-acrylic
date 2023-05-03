@@ -1,0 +1,27 @@
+/* make unthemed profiles acrylic */
+div[class*="layerContainer"] div[class*="userProfileOuterUnthemed"] {
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  background: none;
+}
+
+div[class*="layerContainer"] div[class*="userProfileOuterUnthemed"] >
+div[class*="userPopoutInner"] {
+  background: var(--glass-menu-bg-primary-600-25a);
+}
+
+div[class*="layerContainer"] div[class*="userProfileOuterUnthemed"] >
+div[class*="userPopoutInner"] div[class*="popoutBanner"] {
+  opacity: 0.75;
+}
+
+div[class*="layerContainer"] div[class*="userProfileOuterUnthemed"] >
+div[class*="userPopoutInner"] div[class*="userPopoutOverlayBackground"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}
+
+/* fix fullscreen focuslock unthemed profiles */
+div[class*="focusLock"][role="dialog"] > 
+div[class*="rootWithShadow"] > div[class*="userProfileOuterUnthemed"] 
+div[class*="userProfileModalOverlayBackground"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}

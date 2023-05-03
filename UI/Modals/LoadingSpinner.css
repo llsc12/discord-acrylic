@@ -1,0 +1,6 @@
+/* loading spinner when clicking on a profile */
+div[class*="layerContainer"] div[class*="loadingPopout"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+
+}

@@ -8,7 +8,8 @@ Best used with dark Discord Nitro themes.
 :root {
   /* You can change this blur to anything */
   --glass-menu-bg-blur: 20px;
-}```
+}
+```
 Add this to your Quick CSS file to modify the blur strength.
 
 ## Screenshots

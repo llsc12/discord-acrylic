@@ -3,6 +3,10 @@ Add this to your themes for an acrylic effect on menus, tooltips and more!
 This also fixes random inconsistencies Discord failed to fix themselves.
 Best used with dark Discord Nitro themes.
 
+## Installing
+You can add it as a theme file to [Vencord](https://vencord.dev) or import the CSS file however you wish.
+Just add this file.
+`https://raw.githubusercontent.com/llsc12/discord-acrylic/main/Acrylic.theme.css`
 ## Config
 ```css
 :root {

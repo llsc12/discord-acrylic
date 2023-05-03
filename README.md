@@ -12,4 +12,3 @@ Best used with dark Discord Nitro themes.
 Add this to your Quick CSS file to modify the blur strength.
 
 ## Screenshots
-eta s0n

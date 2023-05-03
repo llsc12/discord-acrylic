@@ -2,6 +2,7 @@
 div[class*="channelTextArea"] > div[class*="scrollableContainer"] > ul[class*="channelAttachmentArea"] > li[class*="upload"] {
   background-color: var(--glass-menu-bg-primary-500-25a);
 }
+
 /* fix attachment actionbar buttons */
 div[class*="channelTextArea"] > div > ul[class*="channelAttachmentArea"] > li[class*="upload"]
 div[class*="actionBarContainer"] > div[class*="actionBar"] > div[class*="wrapper"] {

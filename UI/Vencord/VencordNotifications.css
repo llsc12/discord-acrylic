@@ -1,0 +1,5 @@
+/* vencord notifs */
+#vc-notification-container > .vc-notification-root {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}

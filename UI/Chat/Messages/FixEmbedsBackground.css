@@ -1,0 +1,5 @@
+/* unify embed backgrounds */
+li[id*="chat-messages"][class*="messageListItem"] >
+div[class*="message"] > div[id*="message-accessories"] > article[class*="embedFull"] {
+  background: rgba(0, 0, 0, 0.2);
+}

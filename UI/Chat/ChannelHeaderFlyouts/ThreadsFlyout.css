@@ -1,0 +1,21 @@
+/* threads browser */
+/* - body */
+div[class*="layerContainer"] div[class*="container"][class*="browser"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - header */
+div[class*="layerContainer"] div[class*="container"][class*="browser"] > div[class*="header"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}
+/* - header input */
+div[class*="layerContainer"] div[class*="container"][class*="browser"] > div[class*="header"] > div[class*="searchBox"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}
+/* - thread cells */
+div[class*="layerContainer"] div[class*="container"][class*="browser"] > div[class*="list"] > div[class*="content"] >
+div[class*="container"][role="button"] {
+  background: none;
+  background-color: var(--glass-menu-bg-primary-600-50a);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

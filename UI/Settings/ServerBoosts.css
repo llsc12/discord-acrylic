@@ -1,0 +1,19 @@
+/* server boosts */
+/* existing boosts */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#nitro-server-boost-tab div[class*="content"] > div[class*="guild"] > div[class*="guildHeader"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#nitro-server-boost-tab div[class*="content"] > div[class*="guild"] > div[class*="guildSubscriptionSlots"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+/* ready to boost items */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#nitro-server-boost-tab div[class*="content"] > section[class*="guildsSection"] >
+div[class*="guilds"] > div[class*="cardWrapper"] {
+  background-color: var(--glass-menu-bg-primary-600-35a);
+}

@@ -1,0 +1,63 @@
+/* emoji picker chat bar tray */
+/* - body */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] {
+  background: var(--glass-menu-bg-primary-600-20a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - nav buttons */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] > nav > div > button {
+  background: var(--glass-menu-bg-tertiary-700-50a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - gif/sticker search bar */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] > div > div[class*="header"] > div > div {
+  background: var(--glass-menu-bg-tertiary-700-50a);
+}
+/* - emoji search bar */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] div[class*="header"] div[class*="searchBar"] {
+  background: var(--glass-menu-bg-tertiary-700-50a);
+}
+/* - inspection bar */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] div[class*="inspector"] {
+  background-color: var(--glass-menu-bg-primary-660-50a);
+}
+/* - emoji section headers */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] div[class*="listItems"] > div[class*="categorySection"] > div[class*="wrapper"] {
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  border-radius: 4px;
+}
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] div[class*="listItems"] > div[class*="categorySection"] > div[class*="wrapper"]::after {
+  opacity: 0;
+}
+#emoji-picker-grid > div > div > div[class*="listItems"] > div[class*="wrapper"] > div > div > div {
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  border-radius: 4px;
+}
+#emoji-picker-grid > div > div > div[class*="listItems"] > div[class*="wrapper"] > div > div > div::after {
+  opacity: 0;
+}
+/* - sticker section headers */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] div[class*="listItems"] > div > div[class*="packHeader"] {
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  border-radius: 4px;
+}
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] div[class*="listItems"] > div[class*="packHeader"]::after {
+  opacity: 0;
+}
+/* - sidebar */
+section[class*="positionContainer"] > div >
+div[class*="contentWrapper"] div[class*="categoryList"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}

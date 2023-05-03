@@ -1,0 +1,17 @@
+/* fixes for inbox menu cells */
+/* - header bg */
+div[class*="messagesPopoutWrap"] div[class*="channelHeader"] {
+  background: none;
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  border-radius: 0px 10px 10px 0px;
+}
+/* - header close button */
+div[class*="messagesPopoutWrap"] div[class*="channelHeader"] > div[class*="closeButton"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}
+/* - message cells */
+div[class*="messagesPopoutWrap"] div[class*="messageContainer"] {
+  margin-top: 16px;
+  background-color: var(--glass-menu-bg-primary-600-50a);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

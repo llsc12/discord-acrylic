@@ -1,0 +1,52 @@
+/* message button emoji tray */
+/* - body */
+section[role="dialog"][class*="contentWrapper"]:has(div#emoji-picker-tab-panel) {
+  background: var(--glass-menu-bg-primary-600-20a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - nav buttons */
+section[role="dialog"][class*="contentWrapper"]:has(div#emoji-picker-tab-panel) > nav > div > button {
+  background: var(--glass-menu-bg-tertiary-700-50a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - emoji search bar */
+section[role="dialog"][class*="contentWrapper"]:has(div#emoji-picker-tab-panel) div[class*="header"] div[class*="searchBar"] {
+  background: var(--glass-menu-bg-tertiary-700-50a);
+}
+/* - inspection bar */
+section[role="dialog"][class*="contentWrapper"]:has(div#emoji-picker-tab-panel) div[class*="inspector"] {
+  background-color: var(--glass-menu-bg-primary-660-50a);
+}
+/* - emoji section headers */
+section[role="dialog"][class*="contentWrapper"]:has(div#emoji-picker-tab-panel) div[class*="listItems"] > div[class*="categorySection"] > div[class*="wrapper"] {
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  border-radius: 4px;
+}
+section[role="dialog"][class*="contentWrapper"]:has(div#emoji-picker-tab-panel) div[class*="listItems"] > div[class*="categorySection"] > div[class*="wrapper"]::after {
+  opacity: 0;
+}
+#emoji-picker-grid > div > div > div[class*="listItems"] > div[class*="wrapper"] > div > div > div {
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  border-radius: 4px;
+}
+#emoji-picker-grid > div > div > div[class*="listItems"] > div[class*="wrapper"] > div > div > div::after {
+  opacity: 0;
+}
+/* - sidebar */
+section[role="dialog"][class*="contentWrapper"]:has(div#emoji-picker-tab-panel) div[class*="categoryList"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}
+
+/* chat emoji popouts */
+div[class*="layerContainer"] div[class*="popoutContainer"] { 
+  background: none;
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+div[class*="layerContainer"] div[class*="popoutContainer"] > div[class*="emojiSection"] {
+  background-color: var(--glass-menu-bg-primary-800-50a);
+}
+div[class*="layerContainer"] div[class*="popoutContainer"] > div[class*="guildSection"] {
+  background-color: var(--glass-menu-bg-primary-660-50a);
+}

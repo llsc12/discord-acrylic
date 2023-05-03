@@ -1,0 +1,42 @@
+/* connections */
+/* add accounts box */
+/* - main box */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#connections-tab div[class*="connectContainer"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+/* - account buttons */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#connections-tab div[class*="connectContainer"] > div[class*="connectionsContainer"] > div > button {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}
+
+/* existing connections */
+/* - body */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#connections-tab div[class*="connectionList"] > div[class*="connection"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+/* - header */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#connections-tab div[class*="connectionList"] > div[class*="connection"] >
+div[class*="connectionHeader"] {
+  background-color: var(--glass-menu-bg-primary-600-50a)
+}
+/* meta/upsell containers */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#connections-tab div[class*="connectionList"] > div[class*="connection"] >
+div[class*="metadataContainer"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#connections-tab div[class*="connectionList"] > div[class*="connection"] >
+[class*="upsellWrapper"] > div {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}

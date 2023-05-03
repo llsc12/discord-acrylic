@@ -1,0 +1,11 @@
+/* fix thread container theming */
+div[class*="content"] > div[class*="container"] > 
+section > div[class*="chat"] {
+  background: var(--bg-overlay-chat,var(--background-primary));
+}
+/* - fix thread title input */
+div[class*="content"] > div[class*="container"] > 
+section > div[class*="chat"] div[class*="inputWrapper"] >
+input {
+  background-color: rgba(255, 255, 255, 0.035);
+}

@@ -1,0 +1,17 @@
+/* profiles */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#profile-customization-tab div[class*="profileCustomizationSection"]
+div[class*="bioTextArea"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#profile-customization-tab div[class*="lookFilled"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#profile-customization-tab div[class*="inputWrapper"] > input {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}

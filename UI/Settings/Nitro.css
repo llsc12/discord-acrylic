@@ -1,0 +1,6 @@
+/* nitro */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#discord-nitro-tab ul[class*="perksGrid"] > li {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}

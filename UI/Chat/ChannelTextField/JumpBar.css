@@ -1,0 +1,5 @@
+/* jump to present bar */
+div[class*="jumpToPresentBar"] {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}

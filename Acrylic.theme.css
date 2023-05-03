@@ -1,0 +1,31 @@
+/* Glass Menu Items */
+/* 
+This CSS replaces the backgrounds of most alerts and popups with
+a nice acrylic effect. You can use this in your client by simply
+importing the css in your modded discord client. Just import this
+file with a `@import` line in your theme. 
+*/
+
+@import "./UI/UI.css";
+
+/* variables */
+:root {
+  /* You can change this blur to anything */
+  --glass-menu-bg-blur: 15px;
+
+  /* Don't mess with these, they're used in color calculations */
+  --glass-menu-bg-primary-500-25a: hsl(var(--primary-500-hsl)/0.25);
+  --glass-menu-bg-primary-600-20a: hsl(var(--primary-600-hsl)/0.2);
+  --glass-menu-bg-primary-600-35a: hsl(var(--primary-600-hsl)/0.35);
+  --glass-menu-bg-primary-600-50a: hsl(var(--primary-600-hsl)/0.5);
+  --glass-menu-bg-primary-660-50a: hsl(var(--primary-660-hsl)/0.5);
+  --glass-menu-bg-primary-800-50a: hsl(var(--primary-800-hsl)/0.5);
+  --glass-menu-bg-tertiary-700-50a: hsl(var(--primary-700-hsl)/0.5);
+
+}
+
+/* message context menus (broken) */
+/* div[aria-label="Message Actions"][role="menu"][id="message"] {
+  backdrop-filter: blur(var(--glass-menu-bg-blur)); 
+  background: none;
+} */

@@ -1,0 +1,26 @@
+/* autocompletion */
+/* - body */
+div[class*="channelTextArea"] > div[class*="autocomplete"] {
+  background: var(--glass-menu-bg-primary-600-20a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - side-rail */
+div[class*="channelTextArea"] > div[class*="autocomplete"] > div[class*="autocompleteInner"] >
+div[class*="rail"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}
+div[class*="channelTextArea"] > div[class*="autocomplete"] > div[class*="autocompleteInner"] >
+div[class*="rail"] > div {
+  background: none;
+}
+/* - headers */
+div[class*="channelTextArea"] > div[class*="autocomplete"] > div[class*="autocompleteInner"] >
+div[class*="list"] > div[role="listbox"] > ul[class*="categorySection"] > div[class*="categoryHeader"] {
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  border-radius: 4px;
+}
+div[class*="channelTextArea"] > div[class*="autocomplete"] > div[class*="autocompleteInner"] >
+div[class*="list"] > div[role="listbox"] > ul[class*="categorySection"] > div[class*="categoryHeader"]::after {
+  opacity: 0;
+}

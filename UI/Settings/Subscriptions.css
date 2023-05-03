@@ -1,0 +1,7 @@
+
+/* subscriptions */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#subscriptions-tab div[class*="subscriptionDetails"] div[class*="detailsBlock"] {
+  background-color: var(--glass-menu-bg-primary-600-35a);
+}

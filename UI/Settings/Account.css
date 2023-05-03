@@ -1,0 +1,16 @@
+/* my account - account card */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#my-account-tab div[class*="accountProfileCard"] {
+  background-color: var(--glass-menu-bg-primary-600-20a)
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#my-account-tab div[class*="accountProfileCard"] > div[class*="background"] {
+  background-color: var(--glass-menu-bg-primary-600-20a)
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#my-account-tab div[class*="accountProfileCard"] > div[class*="background"] div[class*="fieldList"] {
+  background: none;
+}

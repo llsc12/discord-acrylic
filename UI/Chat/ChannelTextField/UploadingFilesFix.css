@@ -1,0 +1,5 @@
+/* fix files being uploaded */
+main[class*="chatContent"] div[id*="message-content-Uploader"] > div[class*="attachment"] {
+  background-color: var(--glass-menu-bg-primary-500-25a);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

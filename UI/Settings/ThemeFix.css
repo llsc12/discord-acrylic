@@ -1,0 +1,14 @@
+/* add discord theme to settings */
+/* - sidebar */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"])
+div[class*="sidebarRegion"]
+{
+  background: var(--bg-overlay-home,var(--background-primary));
+}
+/* - body */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"])
+div[class*="contentRegion"] {
+  background: var(--bg-overlay-chat,var(--background-primary));
+}

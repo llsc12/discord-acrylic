@@ -1,0 +1,35 @@
+/* discord focus alerts */
+/* - body */
+div[class*="focusLock"][role="dialog"] > 
+div[class*="container"] > form {
+  background: none;
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - footer */
+div[class*="focusLock"][role="dialog"] > 
+div[class*="container"] > form >
+div[class*="footer"] {
+  background: none;
+}
+
+/* generic focuslock dialog */
+div[class*="layerContainer"]:has(div[class*="backdrop"]) >
+div[class*="layer"]:not([class*="hidden"]):not(:has(div[class*="imageWrapper"])) > 
+div[class*="focusLock"][role="dialog"] > div[class*="root"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - override text fields */
+div[class*="layerContainer"]:has(div[class*="backdrop"]) >
+div[class*="layer"]:not([class*="hidden"]) > 
+div[class*="focusLock"][role="dialog"] > div[class*="root"]
+div[class*="inputWrapper"] > input {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}
+/* - override a footer if any */
+div[class*="layerContainer"]:has(div[class*="backdrop"]) >
+div[class*="layer"]:not([class*="hidden"]) > 
+div[class*="focusLock"][role="dialog"] > div[class*="root"]
+div[class*="footer"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+}

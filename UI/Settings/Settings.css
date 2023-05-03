@@ -1,0 +1,12 @@
+/* general fixes for settings ui */
+
+@import "./ThemeFix.css";
+
+@import "./Account.css";
+@import "./Profiles.css";
+@import "./PrivacySafety.css";
+@import "./AuthedApps.css";
+@import "./Connections.css";
+@import "./Nitro.css";
+@import "./ServerBoosts.css";
+@import "./Subscriptions.css";

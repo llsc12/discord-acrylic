@@ -1,0 +1,9 @@
+@import "./EmojiButtonTray.css";
+
+/* message decorator buttons */
+main[class*="chatContent"] li[class*="messageListItem"] >
+div[class*="message"] div[class*="buttonContainer"] >
+div[role="group"] > div[class*="wrapper"] {
+  background-color: var(--brand-experiment-05a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}

@@ -1,0 +1,9 @@
+/* overlay tooltips on hover */
+div[class*="layerContainer"] > div[class*="layer"] > div[class*="tooltip"] {
+  background-color: var(--glass-menu-bg-tertiary-700-50a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - hide the tip */
+div[class*="layerContainer"] > div[class*="layer"] > div[class*="tooltip"] > div[class*="tooltipPointer"] {
+  display: none;
+}

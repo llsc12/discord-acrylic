@@ -1,0 +1,23 @@
+/* quick switcher */
+/* - body */
+div[class*="focusLock"][role="dialog"] > 
+div[class*="container"] > div[class*="quickswitcher"] {
+  background: none;
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+/* - text field */
+div[class*="focusLock"][role="dialog"] > 
+div[class*="container"] > div[class*="quickswitcher"] > input {
+  background-color: var(--glass-menu-bg-primary-660-50a);
+}
+/* - scroll container */
+div[class*="focusLock"][role="dialog"] > 
+div[class*="container"] > div[class*="quickswitcher"] > div[class*="scroller"] {
+  background: none;
+}
+/* - "selected" result */
+div[class*="focusLock"][role="dialog"] > 
+div[class*="container"] > div[class*="quickswitcher"] > div[class*="scroller"]>
+div[role="listbox"] > div[class*="result"][role="option"][aria-selected="true"] {
+  background: var(--glass-menu-bg-primary-500-25a);
+}

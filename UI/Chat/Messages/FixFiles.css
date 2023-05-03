@@ -1,0 +1,7 @@
+/* fix chat file attachments */
+main[class*="chatContent"] li[class*="messageListItem"] >
+div[class*="message"] > div[id*="message-accessories"] > div[class*="nonMediaAttachmentsContainer"] >
+div[class*="nonMediaAttachmentItem"] > div[class*="messageAttachment"] > div[class*="attachment"] {
+  background-color: var(--glass-menu-bg-primary-500-25a);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

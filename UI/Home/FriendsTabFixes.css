@@ -1,0 +1,22 @@
+/* friends list fixes */
+div[class*="tabBody"] > div[class*="peopleColumn"] div[class*="peopleListItem"] > 
+div[class*="listItemContents"] > div[class*="actions"] > div[class*="actionButton"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}
+
+
+/* active now container item fixes */
+div[class*="tabBody"] > div[class*="nowPlayingColumn"] > aside > 
+div[class*="scroller"] > div[class*="itemCard"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+
+div[class*="tabBody"] > div[class*="nowPlayingColumn"] > aside > 
+div[class*="scroller"] > div[class*="itemCard"] div[class*="body"][class*="inset"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+
+div[class*="tabBody"] > div[class*="nowPlayingColumn"] > aside > 
+div[class*="scroller"] > div[class*="itemCard"] div[class*="body"][class*="inset"] > section {
+  background: none;
+}

@@ -2,11 +2,7 @@
 
 @import "./ThemeFix.css";
 
-@import "./Account.css";
-@import "./Profiles.css";
-@import "./PrivacySafety.css";
-@import "./AuthedApps.css";
-@import "./Connections.css";
-@import "./Nitro.css";
-@import "./ServerBoosts.css";
-@import "./Subscriptions.css";
+@import "./UserSettings/UserSettings.css";
+@import "./PaymentSettings/PaymentSettings.css";
+@import "./AppSettings/AppSettings.css";
+@import "./Vencord/Vencord.css";

@@ -1,0 +1,16 @@
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#appearance-tab div[role="radiogroup"] div[aria-checked="false"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#appearance-tab div[role="radiogroup"] div[aria-checked=true] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}
+
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#appearance-tab div[class*="slider"] > div[class*="bar"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}

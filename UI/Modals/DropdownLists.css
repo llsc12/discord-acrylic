@@ -1,0 +1,8 @@
+div[class*="layerContainer"] > div[id*="popout"] > div[class*="popout"] {
+  background: none;
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}
+
+div[class*="layerContainer"] > div[id*="popout"] > div[class*="popout"][role="listbox"] > div[class*="option"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}

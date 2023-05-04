@@ -1,0 +1,19 @@
+/* gifts page */
+/* input field */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#library-inventory-tab form div[class*="inputWrapper"][class*="codeRedemptionInput"] {
+  background: none;
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#library-inventory-tab form div[class*="inputWrapper"] > input {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+
+/* buttons */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#library-inventory-tab div[class*="skuCard"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}

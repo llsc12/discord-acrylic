@@ -1,0 +1,29 @@
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#billing-tab div[class*="paymentPane"] {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#billing-tab div[class*="paymentPane"] > div[class*="paginator"] {
+  background: none;
+}
+
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#billing-tab div[class*="paymentPane"] > div[class*="paginator"] > div[class*="scrollerBase"] {
+  background: none;
+}
+
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#billing-tab div[class*="paymentPane"] > div[class*="paginator"] > div[class*="scrollerBase"] >
+div {
+  background: none;
+  border: none;
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#billing-tab div[class*="codeRedemptionRedirect"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}

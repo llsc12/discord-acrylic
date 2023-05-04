@@ -1,0 +1,5 @@
+div[class*="layerContainer"] > div[id*="popout"] 
+div[class*="popout"]:has(div[class*="more"][role="button"]) {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+  backdrop-filter: blur(var(--glass-menu-bg-blur));
+}

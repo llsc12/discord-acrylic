@@ -1,0 +1,11 @@
+/* input field */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#vencordcloud-tab form div[class*="inputWrapper"] {
+  background: none;
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#vencordcloud-tab div[class*="inputWrapper"] > input {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}

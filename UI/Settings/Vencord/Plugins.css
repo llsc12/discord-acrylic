@@ -1,0 +1,30 @@
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#vencordplugins-tab div[class*="slider"] > div[class*="bar"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}
+
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#vencordplugins-tab div[class*="select"][aria-haspopup="listbox"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}
+
+/* input field */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#vencordplugins-tab form div[class*="inputWrapper"] {
+  background: none;
+}
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#vencordplugins-tab div[class*="inputWrapper"] > input {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}
+
+/* plugins grid */
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#vencordplugins-tab div.vc-plugins-grid > div.vc-plugins-card {
+  background-color: var(--glass-menu-bg-primary-600-20a);
+}

@@ -1,0 +1,5 @@
+#app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#game-activity-tab div[class*="notDetected"] {
+  background-color: var(--glass-menu-bg-primary-600-50a);
+}

@@ -1,0 +1,5 @@
+/* #app-mount > div[class*="appAsidePanelWrapper"] > div[class*="notAppAsidePanel"]
+div[class*="layer"]:has(div[class*="standardSidebarView"]) div[class*="contentRegion"]
+div#activity-privacy-tab {
+
+} */

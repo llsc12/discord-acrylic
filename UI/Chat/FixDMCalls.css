@@ -1,0 +1,4 @@
+div[class*="container"] > div[class*="base"] > div[class*="content"] >
+div[class*="chat"] div[class*="callContainer"] {
+  background: var(--bg-overlay-home,var(--background-primary));
+}
